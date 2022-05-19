@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Run Ziggurat: The Web3 Network Stability Framework</title>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <img src="./logo.png" alt="Logo"> 
+    <h1>Ziggurat <small>Network Stability and Testing for Peer to Peer Networks</small></h1>
+    
+    <nav>
+      <a href="#team">Team</a>
+      <a href="#customers">Customers</a>
+      <a href="https://fluttering-gem-83c.notion.site/The-Ziggurat-Manual-88f6ab7d85774c5fb1bc12bcd64bf700">Manual</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>
+      Conformance, Performance, and Resistance for your Layer 0 Network
+    </h2>
+  </div>
+
+  <section id="about">
+    <h2>Benefits for both mainnet and testnet</h2>
+    <div class="features">
+      <div>Fuzzing</div>
+      <div>Crawler</div>
+      <div>Chaos + Resistance to Malicious Actors
+        we could take advantage of the fact how scary network vulnerabilities are, picture an image of a malicious node browsing the whole network and then killing every node with a crafted message
+      </div>
+      <div>Visualization</div>
+      <div>Spec Conformance</div>
+      <div>Performance Benchmarking</div>
+    </div>
+  </section>
+
+  <section id="customers">
+    <h2>Some of the biggest names in Web3 trust us with their layer zero</h2>
+  
+    <div class="customers">
+      <table id="case-study-breakdown">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Fuzzing</th>
+            <th>Crawler</th>
+            <th>Chaos + Malicious Actor Modeling</th>
+            <th>Visualization</th>
+            <th>Spec Conformance</th>
+            <th>Performance Benchmarking (loosely defined)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              ZCash
+            </td>
+            <td>Yes</td>
+            <td>In Progress</td>
+            <td>Yes</td>
+            <td>In Progress</td>
+            <td>Yes<sup>*</sup></td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>
+              Algorand
+            </td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <td>
+              Aleo
+            </td>
+            <td>No</td>
+            <td>In Progress</td>
+            <td>No</td>
+            <td>In Progress</td>
+            <td>No</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <td>
+              Polkadot
+            </td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <td>
+              Cardano
+            </td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <td>
+              Solana
+            </td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <td>
+              Mina
+            </td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <td>
+              Eth2 Beacon Chain
+            </td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <td>
+              Pathfinder / StarkNet
+            </td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <aside>
+        Case Study: <a href="./case-studies/zcash.html">ZCash</a>
+
+        Blah Blah Blah Blah
+      </aside>
+    </div>
+  </section>
+
+  <sup>*</sup> means that the Ziggurat tests are the de-facto network spec.
+
+  <section class="team" id="team">
+    <h2>Experts Etc...</h2>
+    <p>
+      <h3>Lukasz Jedrzejczyk</h3> has followed the development of Rust since before it became stable in 2015 and has been a proactive contributor to the Rust compiler and its StackOverflow community. He has participated in the development of multiple peer-to-peer nodes belonging to blockchains and other distributed systems, usually concentrating on the network layer. Notable examples are Rust IPFS and Aleo.
+    </p>
+    <p>
+      <h3>Niklas Long</h3> deeply cares about open source, distributed systems and data privacy. He has been on the Aleo Core Team since late 2020, mostly overhauling, testing and profiling their network; is the author of Ziggurat and an active contributor to Rust IPFS.
+    </p>
+    <p>
+      <h3>Tuomas Mäkinen</h3> has long experience from various large scale distributed infrastructures with complex networking setups. He's a mix of software engineer and an SRE with broad experience from Go and more recently Rust. Latest contributions include a PoC solution for bridging Aleo and Solana.
+    </p>
+    <p>
+      <h3>Mark Henderson</h3> is the VP of Engineering at Equilibrium. He has led the team starting with the original Rust IPFS grant in late 2019, through engagements with many of the largest names in Web3, and is now circling back to finish the critical work the team started with the original Ziggurat proposal. Core contributor to OrbitDB, Rust IPFS, and Ziggurat.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Get in Touch</h2>
+    good testing = solid network = less issues = higher trust = more users
+
+    1. Get support for your network
+        - One time integration fee/grant
+        - Continuous maintenance grant/staking delegation
+
+    <form>
+      <label>Name <input type="text" /></label>
+      <label>E-Mail <input type="text" /></label>
+      <label>Which Network? <input type="text" /></label>
+    </form>
+
+    
+  </section>
+
+  <footer>
+    © Copyright 2022 Equilibrium
+  </footer>
+</body>
+</html>
